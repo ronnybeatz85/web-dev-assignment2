@@ -1,0 +1,127 @@
+/* ----------------------
+   Body and Global Styles
+----------------------- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* ----------------------
+   Header
+----------------------- */
+h1 {
+    text-align: center;
+    color: #2980b9;
+    padding: 20px 0;
+}
+
+/* ----------------------
+   Navigation
+----------------------- */
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    background-color: #2980b9;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: #2980b9;
+}
+
+/* ----------------------
+   Sections
+----------------------- */
+h2 {
+    text-align: center;
+    color: #34495e;
+    margin-top: 30px;
+}
+
+p {
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+
+/* ----------------------
+   About Section Image
+----------------------- */
+img {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    border-radius: 50%;
+}
+
+/* ----------------------
+   Projects List
+----------------------- */
+li {
+    margin: 5px 0;
+}
+
+/* ----------------------
+   Table
+----------------------- */
+table {
+    border-collapse: collapse;
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+th {
+    background-color: #2980b9;
+    color: white;
+}
+
+/* ----------------------
+   Form
+----------------------- */
+input, textarea {
+    width: 95%;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+button {
+    background-color: #2980b9;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3498db;
+}
+
+/* ----------------------
+   Separator
+----------------------- */
+hr {
+    border: 0;
+    height: 2px;
+    background-color: #2980b9;
+    margin: 30px 0;
+}
